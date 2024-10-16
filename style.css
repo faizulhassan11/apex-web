@@ -283,9 +283,13 @@ textarea {
   color: #fff;
   height: 100px;
 }
-#develop h2 {
-  font-size: 40px;
-  text-align: center;
+#develop {
+  background: #6c63ff;
+  color: #fff;
+  height: 100px;
+  display: flex; /* Add this */
+  align-items: center; /* Add this */
+  justify-content: center; /* Add this */
 }
 
 /* Footer start */
@@ -338,6 +342,6 @@ textarea {
     margin-top: 30px;
   }
   #develop h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
